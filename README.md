@@ -73,27 +73,27 @@ Predefined with values, evaluated by me as good starting point for most cases.
   
 * #### click_img_2()
 
-<strong>target</strong>: (str) - path to the img.
-<strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)
-<strong>target_confidence</strong>: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high
-<strong>target_retries</strong>: (int) - how many retries would be performed for click img
-<strong>click_type</strong>: (str) - supported ones: single,double,right
-<strong>off_x</strong>: (int) - x axis offset applied to click action, from center of the target img 
-<strong>off_y</strong>: (int) - y axis offset applied to click action, from center of the target img 
-<strong>mode</strong>: (str)
-&nbsp;   F -> return False 
-&nbsp;   E -> return Exception /default/
-<strong>wait_before_retry</strong>: (int) - how long it would wait until each retry.
-<strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry
-<strong>check</strong>: (str) - path to img it would test for (dis)apperance
-<strong>check_mode</strong>: (str)
- &nbsp;  A - apperance
- &nbsp;  D - disapperance
-<strong>check_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)
-<strong>check_wait_before</strong>: (float) - how long it would wait until test
-<strong>check_retries</strong>: (int) - how many test retries would be performed each loop run
-<strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func 
-<strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func 
+<strong>target</strong>: (str) - path to the img.<br />
+<strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
+<strong>target_confidence</strong>: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high<br />
+<strong>target_retries</strong>: (int) - how many retries would be performed for click img<br />
+<strong>click_type</strong>: (str) - supported ones: single,double,right<br />
+<strong>off_x</strong>: (int) - x axis offset applied to click action, from center of the target img <br />
+<strong>off_y</strong>: (int) - y axis offset applied to click action, from center of the target img <br />
+<strong>mode</strong>: (str)<br />
+&nbsp;   F -> return False <br />
+&nbsp;   E -> return Exception /default/<br />
+<strong>wait_before_retry</strong>: (int) - how long it would wait until each retry.<br />
+<strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry<br />
+<strong>check</strong>: (str) - path to img it would test for (dis)apperance<br />
+<strong>check_mode</strong>: (str)<br />
+ &nbsp;  A - apperance<br />
+ &nbsp;  D - disapperance<br />
+<strong>check_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
+<strong>check_wait_before</strong>: (float) - how long it would wait until test<br />
+<strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
+<strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
+<strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
     
 
 

@@ -28,7 +28,7 @@ To see more, please visit DOCS
 ## Documentation
 
 ### Image recognition based automations
-(based on well-known *PyAutoGui* lib)
+Based on well-known *PyAutoGui* lib
 
 ### Send keys based methods
 

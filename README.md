@@ -6,11 +6,11 @@ Some handy functions especially useful while building Robotic Process Automation
 [Instalation](#instalation) <br />
 [Simple usage](#simple-usage) <br />
 [Documentation](#documentation) <br />
-&ensp; [Image recognition based automations](#Image-recognition-based-automations) <br />
-&ensp; [Send keys based methods](#Send-keys-based-methods) <br />
-&ensp; [Environment prep](#Environment-prep) <br />
+&ensp; [Image recognition based automations](#image-recognition-based-automations) <br />
+&ensp; [Send keys based methods](#send-keys-based-methods) <br />
+&ensp; [Environment prep](#environment-prep) <br />
 &ensp; [Trace logs](#trace-logs) <br />
-[License](#License)
+[License](#license)
 
 ## Instalation
 ```

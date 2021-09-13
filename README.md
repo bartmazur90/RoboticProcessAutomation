@@ -144,7 +144,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
   
   <strong>path</strong>: (str) - path to the folder to be cleared
   
- * #### kill_process()
+* #### kill_process()
 
   ```
   kill_process(['process.exe'])
@@ -153,6 +153,24 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>processes</strong>: (list[str]) - e.g. [process_1_name, (...), process_n_name] 
 
 ### Trace logs
+  This function is to log robots trace info in the file. <br />
+  And takes screenshots while status E,B,F would occur. <br />
+  #####*Some statuses has been already suggested by me ;)* <br />
 
+  ```
+  trace_log('S')
+  ```
+
+  <strong>status</strong>: (str) <br />
+  &nbsp; [S] start/stop <br />
+  &nbsp; [T] trace <br />
+  &nbsp; [E] error <br />
+  &nbsp; [B] business error <br />
+  &nbsp; [W] warning <br />
+  &nbsp; [F] fatal <br />
+  <strong>msg</strong>: (str) - custom error message, left blank will produce /traceback/ msg <br />
+  <strong>path_log</strong>: (str) - path where log file would be saved <br />
+  <strong>path_img</strong>: (str) - path where screenshot would be saved <br />
+  
 ## License
 MIT

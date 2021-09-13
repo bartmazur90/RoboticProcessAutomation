@@ -72,66 +72,66 @@ Predefined with values, evaluated by me as good starting point for most cases.
   &nbsp;  E -> return Exception /default/ <br />
   
 * #### click_img_2()
-Use-case example for this function might be click on MENU and wait/check if SUBMENU has appeared.
+  Use-case example for this function might be click on MENU and wait/check if SUBMENU has appeared.
 
-```
-# IT WOULD WAIT UNTIL IMAGE_2 WILL BE VISIBLE AFTER IMAGE_1 WAS CLICKED.
-# IT WOULD WAIT APPROXIMATELY 2SEK BEFORE CHECK IF IMAGE_2 IS ALREADY VISIBLE
+  ```
+  # IT WOULD WAIT UNTIL IMAGE_2 WILL BE VISIBLE AFTER IMAGE_1 WAS CLICKED.
+  # IT WOULD WAIT APPROXIMATELY 2SEK BEFORE CHECK IF IMAGE_2 IS ALREADY VISIBLE
 
-rpa.click_img_2('path/image1.png', click_type='double', check='path/image2.png', check_wait_before=2)
-```
+  rpa.click_img_2('path/image1.png', click_type='double', check='path/image2.png', check_wait_before=2)
+  ```
 
-<strong>target</strong>: (str) - path to the img.<br />
-<strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
-<strong>target_confidence</strong>: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high<br />
-<strong>target_retries</strong>: (int) - how many retries would be performed for click img<br />
-<strong>click_type</strong>: (str) - supported ones: single,double,right<br />
-<strong>off_x</strong>: (int) - x axis offset applied to click action, from center of the target img <br />
-<strong>off_y</strong>: (int) - y axis offset applied to click action, from center of the target img <br />
-<strong>mode</strong>: (str)<br />
-&nbsp;   F -> return False <br />
-&nbsp;   E -> return Exception /default/<br />
-<strong>wait_before_retry</strong>: (int) - how long it would wait until each retry.<br />
-<strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry<br />
-<strong>check</strong>: (str) - path to img it would test for (dis)apperance<br />
-<strong>check_mode</strong>: (str)<br />
- &nbsp;  A - apperance<br />
- &nbsp;  D - disapperance<br />
-<strong>check_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
-<strong>check_wait_before</strong>: (float) - how long it would wait until test<br />
-<strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
-<strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
-<strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
+  <strong>target</strong>: (str) - path to the img.<br />
+  <strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
+  <strong>target_confidence</strong>: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high<br />
+  <strong>target_retries</strong>: (int) - how many retries would be performed for click img<br />
+  <strong>click_type</strong>: (str) - supported ones: single,double,right<br />
+  <strong>off_x</strong>: (int) - x axis offset applied to click action, from center of the target img <br />
+  <strong>off_y</strong>: (int) - y axis offset applied to click action, from center of the target img <br />
+  <strong>mode</strong>: (str)<br />
+  &nbsp;   F -> return False <br />
+  &nbsp;   E -> return Exception /default/<br />
+  <strong>wait_before_retry</strong>: (int) - how long it would wait until each retry.<br />
+  <strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry<br />
+  <strong>check</strong>: (str) - path to img it would test for (dis)apperance<br />
+  <strong>check_mode</strong>: (str)<br />
+  &nbsp;  A - apperance<br />
+  &nbsp;  D - disapperance<br />
+  <strong>check_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />
+  <strong>check_wait_before</strong>: (float) - how long it would wait until test<br />
+  <strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
+  <strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
+  <strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
 
 ### Send keys based methods
 
 * #### wait_write_press()
 
-```
-wait_write_press(2, "text", "Enter")
-```
+  ```
+  wait_write_press(2, "text", "Enter")
+  ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]<br />
-<strong>text</strong>: (str) - text to be written<br />
-<strong>hotkey</strong>: (str) - hotkey to be pressed<br />
+  <strong>delay</strong>: (int) - delay time in [seconds]<br />
+  <strong>text</strong>: (str) - text to be written<br />
+  <strong>hotkey</strong>: (str) - hotkey to be pressed<br />
 
 * #### wait_press()
 
-```
-wait_press(2, "Enter")
-```
+  ```
+  wait_press(2, "Enter")
+  ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]<br />
-<strong>hotkey</strong>: (str) - hotkey to be pressed<br />
+  <strong>delay</strong>: (int) - delay time in [seconds]<br />
+  <strong>hotkey</strong>: (str) - hotkey to be pressed<br />
 
 * #### wait_write()
 
-```
-wait_write(2, "text")
-```
+  ```
+  wait_write(2, "text")
+  ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]<br />
-<strong>text</strong>: (str) - text to be written<br />
+  <strong>delay</strong>: (int) - delay time in [seconds]<br />
+  <strong>text</strong>: (str) - text to be written<br />
 
 ### Environment prep
 

@@ -4,7 +4,7 @@ Some handy functions especially useful while building Robotic Process Automation
 ---
 
 ## Table of contents
----
+
 [Instalation](#instalation) <br />
 [Simple usage](#simple-usage) <br />
 [Documentation](#documentation) <br />

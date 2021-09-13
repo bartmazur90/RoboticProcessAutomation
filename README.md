@@ -37,8 +37,8 @@ Predefined with values, evaluated by me as good starting point for most cases.
 # IT WOULD TRY TO CLICK 3-TIMES, 100pixels to the right from center of an image:
 rpa.click_img('path/image1.png', off_x=100, target_retries=3)
 ```
- <font size="3">
-__target__: (str) - path to the img. <br />
+ <font size="2">
+ <strong>target</strong>: (str) - path to the img. <br />
 **target_region**: (tuple) - img region rectangle in [pixels] (x,y,width,height) <br />
 **target_confidence**: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high <br />
 **target_retries**: (int) - how many retries would be performed for click img <br />

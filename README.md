@@ -145,5 +145,4 @@ Predefined with values, evaluated by me as good starting point for most cases.
 ### Trace logs
 
 ## License
----
 MIT

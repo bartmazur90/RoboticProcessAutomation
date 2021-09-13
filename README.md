@@ -140,6 +140,8 @@ Predefined with values, evaluated by me as good starting point for most cases.
 * #### clear_folder()
 
   ```
+  #IT WOULD DELETE ALL FILES FROM PROVIDED FOLDER
+  
   clear_folder('path_to_the_folder')
   ```
   
@@ -148,6 +150,8 @@ Predefined with values, evaluated by me as good starting point for most cases.
 * #### kill_process()
 
   ```
+  # IT WOULD KILL ALL PROVIDED PROCESSES IF THEY ARE CURRENTLY RUNNING
+  
   kill_process(['process.exe'])
   ```
   

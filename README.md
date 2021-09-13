@@ -11,6 +11,7 @@ Developed by *Bartosz Mazur*.
 &ensp; [Send keys based methods](#send-keys-based-methods) <br />
 &ensp; [Environment prep](#environment-prep) <br />
 &ensp; [Trace logs](#trace-logs) <br />
+[Dependencies](#Dependencies) <br />
 [License](#license)
 
 ## Instalation
@@ -184,6 +185,13 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>msg</strong>: (str) - custom error message, left blank will produce /traceback/ msg <br />
   <strong>path_log</strong>: (str) - path where log file would be saved <br />
   <strong>path_img</strong>: (str) - path where screenshot would be saved <br />
+
+## Dependencies
+Pillow <br />
+OpenCV-python <br />
+PyAutoGui <br />
+PyScreeze <br />
+
 
 ## License
 MIT

@@ -1,6 +1,6 @@
 # RoboticProcessAutomation
 Some handy functions especially useful while building Robotic Process Automations with Python. <br />
-Developed by *Bartosz Mazur*
+Developed by *Bartosz Mazur*.
 
 ## Table of contents
 

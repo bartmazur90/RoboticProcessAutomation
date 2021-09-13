@@ -34,7 +34,8 @@ Predefined with values, evaluated by me as good starting point for most cases.
 
 * #### click_img
 ```
-# IT WOULD TRY TO CLICK 3-TIMES, 100pixels to the right from center of an image:
+# IT WOULD TRY TO CLICK 3-TIMES, 100PX TO THE RIGHT FROM THE CENTER OF AN IMAGE:
+
 rpa.click_img('path/image1.png', off_x=100, target_retries=3)
 ```
 

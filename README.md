@@ -28,7 +28,9 @@ To see more, please visit DOCS
 ## Documentation
 
 ### Image recognition based automations
-Based on well-known *PyAutoGui* lib
+Based on well-known *PyAutoGui* lib <br />
+Ready to use functionalities, with a lot of additional parameters <br />
+(predefined with values, evaluated by me as good starting point for most cases) 
 
 * #### click_img 
 

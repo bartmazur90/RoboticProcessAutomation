@@ -4,7 +4,7 @@ Some handy functions especially useful while building Robotic Process Automation
 ---
 
 ## Table of contents
-
+---
 [Instalation](#instalation) <br />
 [Simple usage](#simple-usage) <br />
 [Documentation](#documentation) <br />
@@ -14,14 +14,10 @@ Some handy functions especially useful while building Robotic Process Automation
 &ensp; [Trace logs](#trace-logs) <br />
 [License](#license)
 
----
-
 ## Instalation
 ```
 pip install RoboticProcessAutomation
 ```
-
----
 
 ## Simple usage
 ```
@@ -30,11 +26,10 @@ import RoboticProcessAutomation as rpa
 rpa.click_img('path/image1.png')
 ```
 
----
-
 ## Documentation
 
 ### Image recognition based automations
+---
 Based on well-known *PyAutoGui* lib. <br />
 Ready to use functionalities, with a lot of additional parameters. <br />
 Predefined with values, evaluated by me as good starting point for most cases.
@@ -110,10 +105,9 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
   <strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
   <strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
-  
----
 
 ### Send keys based methods
+---
 
 * #### wait_write_press()
 
@@ -142,20 +136,18 @@ Predefined with values, evaluated by me as good starting point for most cases.
 
   <strong>delay</strong>: (int) - delay time in [seconds]<br />
   <strong>text</strong>: (str) - text to be written<br />
-  
----
+
 
 
 
 
 
 ### Environment prep
-
 ---
 
 ### Trace logs
-
 ---
 
 ## License
+---
 MIT

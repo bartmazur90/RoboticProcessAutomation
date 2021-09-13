@@ -161,6 +161,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
   *Some statuses has been already suggested by me ;)* <br />
 
   ```
+  trace_log('S', msg='SAMPLE PROCESS STARTED')
   try:
     rpa.click_img('path/image1.png')
     trace_log('T', msg='image1 clicked')

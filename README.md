@@ -160,10 +160,12 @@ Predefined with values, evaluated by me as good starting point for most cases.
   And takes screenshots while status E,B,F would occur. <br />
   *Some statuses has been already suggested by me ;)* <br />
 
-
-
   ```
-  trace_log('S')
+  try:
+    rpa.click_img('path/image1.png')
+    trace_log('T', msg='image1 clicked')
+  except Exception:
+    trace_log('E')
   ```
 
 

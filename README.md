@@ -134,11 +134,23 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>text</strong>: (str) - text to be written<br />
 
 
-
-
-
-
 ### Environment prep
+
+* #### clear_folder()
+
+  ```
+  clear_folder('path_to_the_folder')
+  ```
+  
+  <strong>path</strong>: (str) - path to the folder to be cleared
+  
+ * #### kill_process()
+
+  ```
+  kill_process(['process.exe'])
+  ```
+  
+  <strong>processes</strong>: (list[str]) - e.g. [process_1_name, (...), process_n_name] 
 
 ### Trace logs
 

@@ -155,7 +155,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
 ### Trace logs
   This function is to log robots trace info in the file. <br />
   And takes screenshots while status E,B,F would occur. <br />
-  #####*Some statuses has been already suggested by me ;)* <br />
+  *Some statuses has been already suggested by me ;)* <br />
 
   ```
   trace_log('S')

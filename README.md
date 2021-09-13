@@ -72,6 +72,14 @@ Predefined with values, evaluated by me as good starting point for most cases.
   &nbsp;  E -> return Exception /default/ <br />
   
 * #### click_img_2()
+Use-case example for this function might be click on MENU and wait/check if SUBMENU has appeared.
+
+```
+# IT WOULD WAIT UNTIL IMAGE_2 WILL BE VISIBLE AFTER IMAGE_1 WAS CLICKED.
+# IT WOULD WAIT APPROXIMATELY 2SEK BEFORE CHECK IF IMAGE_2 IS ALREADY VISIBLE
+
+rpa.click_img_2('path/image1.png, click_type = 'double', check = 'path/image2.png', check_wait_before = 2)
+```
 
 <strong>target</strong>: (str) - path to the img.<br />
 <strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height)<br />

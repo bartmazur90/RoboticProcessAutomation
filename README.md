@@ -1,8 +1,6 @@
 # RoboticProcessAutomation
 Some handy functions especially useful while building Robotic Process Automations with Python.
 
----
-
 ## Table of contents
 
 [Instalation](#instalation) <br />

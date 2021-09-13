@@ -111,9 +111,9 @@ rpa.click_img_2('path/image1.png', click_type='double', check='path/image2.png',
 wait_write_press(2, "text", "Enter")
 ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]
-<strong>text</strong>: (str) - text to be written
-<strong>hotkey</strong>: (str) - hotkey to be pressed
+<strong>delay</strong>: (int) - delay time in [seconds]<br />
+<strong>text</strong>: (str) - text to be written<br />
+<strong>hotkey</strong>: (str) - hotkey to be pressed<br />
 
 * #### wait_press()
 
@@ -121,8 +121,8 @@ wait_write_press(2, "text", "Enter")
 wait_press(2, "Enter")
 ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]
-<strong>hotkey</strong>: (str) - hotkey to be pressed
+<strong>delay</strong>: (int) - delay time in [seconds]<br />
+<strong>hotkey</strong>: (str) - hotkey to be pressed<br />
 
 * #### wait_write()
 
@@ -130,8 +130,8 @@ wait_press(2, "Enter")
 wait_write(2, "text")
 ```
 
-<strong>delay</strong>: (int) - delay time in [seconds]
-<strong>text</strong>: (str) - text to be written
+<strong>delay</strong>: (int) - delay time in [seconds]<br />
+<strong>text</strong>: (str) - text to be written<br />
 
 ### Environment prep
 

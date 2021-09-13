@@ -6,16 +6,16 @@ Some handy functions especially useful while building Robotic Process Automation
 * Trace Logs.
 
 ### Instalation
-'''
+```
 pip install RoboticProcessAutomation
-'''
+```
 
 ### Simple usage
-'''
+```
 import RoboticProcessAutomation as rpa
 
 rpa.click_img('path/image1.png')
-'''
+```
 To see more, please visit DOCS
 
 ### License

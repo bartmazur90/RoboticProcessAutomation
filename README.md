@@ -6,10 +6,10 @@ Some handy functions especially useful while building Robotic Process Automation
 [Instalation](#instalation) <br />
 [Simple usage](#simple-usage) <br />
 [Documentation](#documentation) <br />
-    [Image recognition based automations](#Image-recognition-based-automations) <br />
-    [Send keys based methods](#Send-keys-based-methods) <br />
-    [Environment prep](#Environment-prep) <br />
-    [Trace logs](#trace-logs) <br />
+&nbsp [Image recognition based automations](#Image-recognition-based-automations) <br />
+&nbsp [Send keys based methods](#Send-keys-based-methods) <br />
+&nbsp [Environment prep](#Environment-prep) <br />
+&nbsp [Trace logs](#trace-logs) <br />
 [License](#License)
 
 ## Instalation

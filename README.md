@@ -37,19 +37,19 @@ Predefined with values, evaluated by me as good starting point for most cases.
 # IT WOULD TRY TO CLICK 3-TIMES, 100pixels to the right from center of an image:
 rpa.click_img('path/image1.png', off_x=100, target_retries=3)
 ```
-
-target: (str) - path to the img.
-target_region: (tuple) - img region rectangle in [pixels] (x,y,width,height)
-target_confidence: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high
-target_retries: (int) - how many retries would be performed for click img
-click_type: (str) - supported ones: single,double,right
-off_x: (int) - x axis offset applied to click action, from center of the target img 
-off_y: (int) - y axis offset applied to click action, from center of the target img 
-mode: (str) - F -> return False 
-              E -> return Exception /default/
-wait_before_retry: (int) - how long it would wait until each retry.
-click_before_retry: (tuple) - (x,y) to focus before retry
-   
+ <font size="3">
+**target**: (str) - path to the img. <br />
+**target_region**: (tuple) - img region rectangle in [pixels] (x,y,width,height) <br />
+**target_confidence**: (float) - treshold for img recognition, 0.01 - ultra low 0.99 - high <br />
+**target_retries**: (int) - how many retries would be performed for click img <br />
+**click_type**: (str) - supported ones: single,double,right <br />
+**off_x**: (int) - x axis offset applied to click action, from center of the target img  <br />
+**off_y**: (int) - y axis offset applied to click action, from center of the target img  <br />
+**mode**: (str) - F -> return False  <br />
+              E -> return Exception /default/ <br />
+**wait_before_retry**: (int) - how long it would wait until each retry. <br />
+**click_before_retry**: (tuple) - (x,y) to focus before retry <br />
+</font>
 
   
 

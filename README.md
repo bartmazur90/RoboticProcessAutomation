@@ -1,5 +1,6 @@
 # RoboticProcessAutomation
-Some handy functions especially useful while building Robotic Process Automations with Python.
+Some handy functions especially useful while building Robotic Process Automations with Python. <br />
+Developed by Bartosz Mazur
 
 ## Table of contents
 
@@ -153,13 +154,18 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>processes</strong>: (list[str]) - e.g. [process_1_name, (...), process_n_name] 
 
 ### Trace logs
+
+* trace_log() </br>
   This function is to log robots trace info in the file. <br />
   And takes screenshots while status E,B,F would occur. <br />
   *Some statuses has been already suggested by me ;)* <br />
 
+
+
   ```
   trace_log('S')
   ```
+
 
   <strong>status</strong>: (str) <br />
   &nbsp; [S] start/stop <br />
@@ -171,6 +177,6 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>msg</strong>: (str) - custom error message, left blank will produce /traceback/ msg <br />
   <strong>path_log</strong>: (str) - path where log file would be saved <br />
   <strong>path_img</strong>: (str) - path where screenshot would be saved <br />
-  
+
 ## License
 MIT

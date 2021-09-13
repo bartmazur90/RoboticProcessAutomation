@@ -52,11 +52,16 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry <br />
 
 * #### wait_img_appear()
+* #### wait_img_dissapear()
   ```
   # IT WOULD WAIT UNTIL IMAGE_1 WOULD APPEAR ON THE SCREEN WITHIN (100,100,400,500) RECTANGLE
   # IT WOULD RETURN FALSE IF AFTER TIMEOUT, IMAGE_1 IS STILL NOT VISIBLE
   
   rpa.wait_img_appear('path/image1.png', target_region = (100,100,400,500), mode = "F")
+  
+  # IT WOULD WAIT FOR APPROXIMATELY 30SEK UNTIL IMAGE_1 WOULD DISAPPEAR FROM THE SCREEN
+  
+  rpa.wait_img_disappear('path/image1.png', timeout = 30)
   ```
   <strong>target</strong>: (str) - path to the img. <br />
   <strong>target_region</strong>: (tuple) - img region rectangle in [pixels] (x,y,width,height) <br />

@@ -29,7 +29,6 @@ rpa.click_img('path/image1.png')
 ## Documentation
 
 ### Image recognition based automations
----
 Based on well-known *PyAutoGui* lib. <br />
 Ready to use functionalities, with a lot of additional parameters. <br />
 Predefined with values, evaluated by me as good starting point for most cases.
@@ -107,7 +106,6 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
 
 ### Send keys based methods
----
 
 * #### wait_write_press()
 
@@ -143,10 +141,8 @@ Predefined with values, evaluated by me as good starting point for most cases.
 
 
 ### Environment prep
----
 
 ### Trace logs
----
 
 ## License
 ---

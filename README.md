@@ -1,5 +1,5 @@
 # RoboticProcessAutomation
-Some handy functions especially useful while building Robotic Process Automations with Python. <br />
+Some handy functions especially useful while building Robotic Process Automations with Python 3.7. <br />
 Developed by *Bartosz Mazur*.
 
 ## Table of contents

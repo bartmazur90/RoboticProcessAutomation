@@ -1,5 +1,6 @@
 # RoboticProcessAutomation
 Some handy functions especially useful while building Robotic Process Automations with Python.
+---
 
 ## Table of contents
 
@@ -11,11 +12,13 @@ Some handy functions especially useful while building Robotic Process Automation
 &ensp; [Environment prep](#environment-prep) <br />
 &ensp; [Trace logs](#trace-logs) <br />
 [License](#license)
+---
 
 ## Instalation
 ```
 pip install RoboticProcessAutomation
 ```
+---
 
 ## Simple usage
 ```
@@ -23,6 +26,7 @@ import RoboticProcessAutomation as rpa
 
 rpa.click_img('path/image1.png')
 ```
+---
 
 ## Documentation
 
@@ -102,6 +106,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
   <strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
   <strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
+---
 
 ### Send keys based methods
 
@@ -132,10 +137,19 @@ Predefined with values, evaluated by me as good starting point for most cases.
 
   <strong>delay</strong>: (int) - delay time in [seconds]<br />
   <strong>text</strong>: (str) - text to be written<br />
+---
+
+
+
+
 
 ### Environment prep
 
+---
+
 ### Trace logs
+
+---
 
 ## License
 MIT

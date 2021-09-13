@@ -51,8 +51,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>wait_before_retry</strong>: (int) - how long it would wait until each retry. <br />
   <strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry <br />
 
-* #### wait_img_appear()
-* #### wait_img_dissapear()
+* #### wait_img_appear(), #### wait_img_dissapear()
   ```
   # IT WOULD WAIT UNTIL IMAGE_1 WOULD APPEAR ON THE SCREEN WITHIN (100,100,400,500) RECTANGLE
   # IT WOULD RETURN FALSE IF AFTER TIMEOUT, IMAGE_1 IS STILL NOT VISIBLE

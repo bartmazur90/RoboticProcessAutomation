@@ -57,7 +57,7 @@ Predefined with values, evaluated by me as good starting point for most cases.
   # IT WOULD WAIT UNTIL IMAGE_1 WOULD APPEAR ON THE SCREEN WITHIN (100,100,400,500) RECTANGLE
   # IT WOULD RETURN FALSE IF AFTER TIMEOUT, IMAGE_1 IS STILL NOT VISIBLE
   
-  rpa.wait_img_appear('path/image1.png', target_region = (100,100,400,500), mode = "F")
+  rpa.wait_img_appear('path/image1.png', target_region=(100,100,400,500), mode="F")
   
   # IT WOULD WAIT FOR APPROXIMATELY 30SEK UNTIL IMAGE_1 WOULD DISAPPEAR FROM THE SCREEN
   
@@ -102,10 +102,36 @@ rpa.click_img_2('path/image1.png', click_type='double', check='path/image2.png',
 <strong>check_retries</strong>: (int) - how many test retries would be performed each loop run<br />
 <strong>check_timeout</strong>: (int) - to be passed into wait_img_a/d func <br />
 <strong>check_confidence</strong>: (float) - to be passed into wait_img_a/d func <br />
-    
-
 
 ### Send keys based methods
+
+* #### wait_write_press()
+
+```
+wait_write_press(2, "text", "Enter")
+```
+
+<strong>delay</strong>: (int) - delay time in [seconds]
+<strong>text</strong>: (str) - text to be written
+<strong>hotkey</strong>: (str) - hotkey to be pressed
+
+* #### wait_press()
+
+```
+wait_press(2, "Enter")
+```
+
+<strong>delay</strong>: (int) - delay time in [seconds]
+<strong>hotkey</strong>: (str) - hotkey to be pressed
+
+* #### wait_write()
+
+```
+wait_write(2, "text")
+```
+
+<strong>delay</strong>: (int) - delay time in [seconds]
+<strong>text</strong>: (str) - text to be written
 
 ### Environment prep
 

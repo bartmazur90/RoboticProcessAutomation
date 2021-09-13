@@ -3,8 +3,8 @@ Some handy functions especially useful while building Robotic Process Automation
 
 ### Table of contents
 
-[Instalation](#instalation)
-[Simple usage](#simple-usage)
+[Instalation](#instalation) <br />
+[Simple usage](#simple-usage) <br />
 [Documentation](#documentation)
 * [Image recognition based automations](#Image-recognition-based-automations)
 * [Send keys based methods](#Send-keys-based-methods)

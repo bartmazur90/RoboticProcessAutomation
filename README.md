@@ -1,23 +1,23 @@
 # RoboticProcessAutomation
 Some handy functions especially useful while building Robotic Process Automations with Python.
 
-### Table of contents
+## Table of contents
 
 [Instalation](#instalation) <br />
 [Simple usage](#simple-usage) <br />
 [Documentation](#documentation)
-* [Image recognition based automations](#Image-recognition-based-automations)
-* [Send keys based methods](#Send-keys-based-methods)
-* [Environment prep](#Environment-prep)
-* [Trace logs](#trace-logs)
+    [Image recognition based automations](#Image-recognition-based-automations)
+    [Send keys based methods](#Send-keys-based-methods)
+    [Environment prep](#Environment-prep)
+    [Trace logs](#trace-logs)
 [License](#License)
 
-### Instalation
+## Instalation
 ```
 pip install RoboticProcessAutomation
 ```
 
-### Simple usage
+## Simple usage
 ```
 import RoboticProcessAutomation as rpa
 
@@ -25,16 +25,16 @@ rpa.click_img('path/image1.png')
 ```
 To see more, please visit DOCS
 
-### Documentation
+## Documentation
 
-##### Image recognition based automations
+### Image recognition based automations
 (based on well-known *PyAutoGui* lib)
 
-##### Send keys based methods
+### Send keys based methods
 
-##### Environment prep
+### Environment prep
 
-##### Trace logs
+### Trace logs
 
-### License
+## License
 MIT

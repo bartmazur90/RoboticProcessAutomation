@@ -30,6 +30,8 @@ To see more, please visit DOCS
 ### Image recognition based automations
 Based on well-known *PyAutoGui* lib
 
+* #### click_img 
+
 ### Send keys based methods
 
 ### Environment prep

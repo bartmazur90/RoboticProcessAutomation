@@ -31,7 +31,7 @@ Based on well-known *PyAutoGui* lib. <br />
 Ready to use functionalities, with a lot of additional parameters. <br />
 Predefined with values, evaluated by me as good starting point for most cases.
 
-* #### click_img
+* #### click_img()
   ```
   # IT WOULD TRY TO CLICK 3-TIMES, 100PX TO THE RIGHT FROM THE CENTER OF AN IMAGE_1:
 
@@ -48,10 +48,10 @@ Predefined with values, evaluated by me as good starting point for most cases.
   <strong>mode</strong>: (str) <br />
   &nbsp; F -> return False  <br />
   &nbsp; E -> return Exception /default/ <br />
-  <strong/>wait_before_retry<strong>: (int) - how long it would wait until each retry. <br />
-  <strong/>click_before_retry<strong>: (tuple) - (x,y) to focus before retry <br />
+  <strong>wait_before_retry</strong>: (int) - how long it would wait until each retry. <br />
+  <strong>click_before_retry</strong>: (tuple) - (x,y) to focus before retry <br />
 
-* #### wait_img_appear
+* #### wait_img_appear()
   ```
   # IT WOULD WAIT UNTIL IMAGE_1 WOULD APPEAR ON THE SCREEN WITHIN (100,100,400,500) RECTANGLE
   # IT WOULD RETURN FALSE IF AFTER TIMEOUT, IMAGE_1 IS STILL NOT VISIBLE
